@@ -6,7 +6,6 @@ from kivy.properties import ObjectProperty
 class Touch(Widget):
     btn = ObjectProperty(None)
 
-
     def on_touch_down(self, touch):
         print("Mouse Down", touch)
         self.btn.opacity = 0.5
